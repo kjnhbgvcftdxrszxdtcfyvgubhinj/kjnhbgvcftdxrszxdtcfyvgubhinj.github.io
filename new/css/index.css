@@ -1,0 +1,258 @@
+#body{
+  margin: 0;
+  background-color: #e3eefc;
+}
+#Header_1{
+  background: url("../img/People.png");
+  color: transparent;
+  -webkit-background-clip:text;
+  animation: Header 25s infinite linear;
+}
+.nav-button{
+  font-family: cursive;
+  border: 2px dotted #F349D8;
+  background-color: #e3eefc;
+  color: #2E4CEF;
+}
+#slider_1{
+  margin-top: 20px;
+}
+@keyframes Header{
+  0%{
+    background-position: 0 0 ;
+  }
+  50%{
+    background-position: 100% 100%;
+  }
+  100%{
+    background-position: 0% 0%;
+  }
+}
+@media screen and (min-width: 992px){
+    #Header_1{
+      font-size: 100px;
+    }
+    #nav-button-4{
+      margin-right: 0px;
+    }
+    #Kompozition_header{
+      font-size: 80px;
+    }
+    
+}
+/*@media screen and (max-width: 1023px){
+    .ballon{
+      visibility: hidden;
+    }
+}*/
+@media screen and (min-width: 500px) and (max-width: 992px){
+    #Header_1{
+      font-size: 50px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .nav-button{
+      margin-top: 5px;
+      width: 80%;
+    }
+    #nav-button-1{
+      width: 50%;
+    }
+    #nav-button-2{
+      width: 29%;
+    }
+    #nav-button-4{
+      width: 50%;
+    }
+    #nav-button-5{
+      width: 29%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .nav-button{
+      font-size: 25px;
+    }
+
+    #slider_1{
+      width: 70%;
+    }
+    /*.pic_slider_1{
+      height: 700px;
+    }*/
+
+}
+@media screen and (min-width: 992px){
+    .nav-button{
+      font-size: 25px;
+      
+    }
+}
+@media screen and (min-width: 1400px){
+    #nav-button-4{
+      font-size: 25px;
+      margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 1071px) and (min-width: 993px){
+  #Header_1{
+    font-size: 80px;
+  }
+}
+#Navigation_container{
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  #container_header{
+      width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+  #kompozition_text{
+    font-size: 7px;
+  }
+}
+
+#Kompozition_header{
+  color: #F349D8;
+  font-family: thin;
+}
+#container_kompozition{
+  margin-top: -10px;
+  width: 70%;
+}
+#kompozition_text{
+  font-family: cursive;
+  font-size: 20px;
+  color: #2E4CEF;
+}
+#sliders{
+  width: 70%;
+}
+
+#container_ballons{
+  width: 50%;
+}
+
+.ballon{
+  
+
+  transform: translate3d(0, - 100%, 0);
+  animation: spin 7s infinite linear;
+}
+#img_simple{
+  margin-left: 30%;
+  height: 60px;
+  animation: rotated 7s infinite linear;
+}
+#img_simple_1{
+  margin-left: 70%;
+  height: 60px;
+  animation: rotated 7s infinite linear;
+}
+#img_simple_2{
+  margin-left: 10%;
+  margin-bottom: -20PX;
+  height: 60px;
+  animation: rotated 7s infinite linear;
+}
+@keyframes spin {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0,20%);
+  }
+}
+.img_ballons{
+
+    height: 500px;
+}
+#container_ballons_1{
+  border: 1px dotted whitesmoke;
+  background-color: #E5B82E;
+  padding-top: 10px;
+  padding-bottom: 10px ;
+  width: 70%;
+  align-items: center;
+}
+#bear{
+  height: 300px;
+}
+#container_products{
+  width: 70%;
+  margin-top: 10px;
+}
+.left_border{
+  height: 380px;
+  border-left: 5px solid #2E8CE5;
+  padding: 10px;
+}
+.right_border{
+  height: 380px;
+  border-right: 5px solid #2E8CE5;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: 5px solid #2E8CE5;
+  border-bottom: 5px solid #2E8CE5;
+  padding: 10px;
+}
+#products{
+  width: 70%;
+}
+#p_content{
+  width: 30%;
+  
+}
+#img_products{
+  height: 350px;
+}
+#card_products{
+  margin-top: 50px;
+}
+#animation_container{
+  width: 70%;
+}
+#animation{
+  
+  width: 70%;
+}
+#Contacts{
+  border: 1px dotted grey;
+  width: 70%;
+}
+.accordion_prymary{
+  border: 1px dotted red;
+}
+#button_animation{
+margin-top: 10px;}
+#basement{
+  padding: 20px;
+  background-color: #F5FFF8;
+  height: 400px;
+  margin-bottom: -120px;
+}
+#basement_header{
+  font-size: 80px;
+  font-family: sans-serif;
+  background: url("../img/People.png");
+  color: transparent;
+  -webkit-background-clip:text;
+  animation: Header 25s infinite linear;
+}
+@keyframes rotated{
+  0% {
+    
+    transform: scale(1);
+  }
+  50% {
+    
+    transform:scale(1.37);
+  }
+  100% {
+    
+    transform: scale(1);
+  }
+  
+}
